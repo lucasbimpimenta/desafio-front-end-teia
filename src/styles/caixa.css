@@ -1,0 +1,89 @@
+@font-face {
+  font-family: futuraBook;
+  src: url("../fonts/Futura-STD/futura-book.ttf");
+  font-weight: 300;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+@font-face {
+  font-family: futuraBookItalic;
+  src: url("../fonts/Futura-STD/futura-book-italic.ttf");
+  font-weight: 300;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+@font-face {
+  font-family: futuraMedium;
+  src: url("../fonts/Futura-STD/futura-medium.ttf");
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+@font-face {
+  font-family: futuraMediumItalic;
+  src: url("../fonts/Futura-STD/futura-medium-italic.ttf");
+  font-weight: 500;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+@font-face {
+  font-family: futuraHeavy;
+  src: url("../fonts/Futura-STD/futura-heavy.ttf");
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+@font-face {
+  font-family: futuraHeavyItalic;
+  src: url("../fonts/Futura-STD/futura-heavy-italic.ttf");
+  font-weight: 700;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+@font-face {
+  font-family: futuraBold;
+  src: url("../fonts/Futura-STD/futura-bold.ttf");
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+@font-face {
+  font-family: futuraBoldItalic;
+  src: url("../fonts/Futura-STD/futura-bold-italic.ttf");
+  font-weight: 800;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+@font-face {
+  font-family: arialMonospace;
+  src: url("../fonts/Arial-Monospace/arial-monospaced-mt.ttf");
+  font-weight: 300;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.gradienteCaixa {
+  background: linear-gradient(180deg, #005CA9 35.08%, #54BBAB 100%);
+}
+
+.bg-teia {
+  background: url('../assets/bg_teia.png');
+  background-repeat: repeat;
+  background-size: auto;
+}
