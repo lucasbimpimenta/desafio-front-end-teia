@@ -111,7 +111,7 @@ export default function PhotosList({
           )}
         </div>
         <div className="m-2 flex flex-wrap justify-center gap-4">
-          {page?.data.map((photo, idx) => (
+          {page?.data.map((photo) => (
             <PhotoCard key={photo.id} photo={photo} highlightText={filter} />
           ))}
         </div>
