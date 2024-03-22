@@ -22,7 +22,7 @@ export default function PhotoCard({ photo, highlightText }: PhotoCardProps) {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Card className="grid h-auto basis-[320px] cursor-pointer grid-cols-[115px_1fr] items-start gap-4 space-y-0 rounded-md p-1">
+        <Card className="grid h-auto basis-full cursor-pointer grid-cols-[115px_1fr] items-start gap-4 rounded-md p-1 sm:basis-[235px] md:basis-[275px] lg:basis-[282px]">
           <PhotoThumb photo={photo} />
           <div className="h-full flex-col items-start justify-between space-y-4 py-2">
             <div>
@@ -51,10 +51,9 @@ export default function PhotoCard({ photo, highlightText }: PhotoCardProps) {
       <SheetContent className="w-full ">
         <SheetHeader className="text-left">
           <SheetTitle className="mb-4 mt-4 border-l-4 border-[#F39200] pl-2 font-[futuraBold] text-xl capitalize text-[#005ca9]">
-            {" "}
             {photo.title}
           </SheetTitle>
-          <SheetDescription>
+          <SheetDescription asChild>
             <div className="max-w-[330px] flex-col items-start justify-between space-y-4 ">
               <AspectRatio ratio={9 / 9}>
                 <img
