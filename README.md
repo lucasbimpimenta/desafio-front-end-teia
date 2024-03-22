@@ -1,7 +1,7 @@
 # Desafio - Front End - TEIA
 
 ## Versão online
-[https://lucasbimpimenta.github.io/desafio-frontend-teia](https://lucasbimpimenta.github.io/desafio-front-end-teia/)
+https://lucasbimpimenta.github.io/desafio-front-end-teia/
 
 ## Requerimentos:
 
